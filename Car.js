@@ -5,7 +5,7 @@ class Car{
          this.y = height-random([150,250,350,950,1050,1150,1750,1850,1950]);
          this.spt = createSprite(this.x,this.y);
          this.spt.shapeColor = "blue";
-         this.spt.scale=0.07;
+         this.spt.scale=0.05;
        this.spt.addAnimation("car",carAnimation1);
          if(this.y==height-250 || this.y==height-1050 || this.y==height-1850)
          {
